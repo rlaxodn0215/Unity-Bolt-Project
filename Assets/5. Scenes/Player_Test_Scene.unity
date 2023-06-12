@@ -3487,19 +3487,32 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!65 &1594137862
-BoxCollider:
+--- !u!61 &1594137862
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594137858}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.52097523, y: -4.499735}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5915468, y: 2.589551, z: 0}
-  m_Center: {x: 0.497005, y: -4.437259, z: 0}
+  m_Size: {x: 0.58049375, y: 3.0005302}
+  m_EdgeRadius: 0
 --- !u!1 &1765389350
 GameObject:
   m_ObjectHideFlags: 0
@@ -3708,6 +3721,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7053779178920002509, guid: 1c2c11bc40cf20f46b97e02db6b30b15,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c2c11bc40cf20f46b97e02db6b30b15, type: 3}
