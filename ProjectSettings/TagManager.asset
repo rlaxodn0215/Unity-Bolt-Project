@@ -11,6 +11,7 @@ TagManager:
   - Objective
   - Ladder
   - Ladder-air
+  - Box
   layers:
   - Default
   - TransparentFX
