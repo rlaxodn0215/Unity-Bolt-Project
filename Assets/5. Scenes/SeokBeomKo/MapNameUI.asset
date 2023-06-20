@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: MapNameUI
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"TMPro.TextMeshProUGUI","key":"mapName","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":43.0,"y":-68.5},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-107.0,"y":-40.0},"guid":"1243ef1a-522b-4d66-a9a2-ab7c67f24986","$version":"A","$type":"Bolt.GraphInput","$id":"10"},{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"setMapName","$type":"System.String"}},"position":{"x":-175.0,"y":-167.0},"guid":"7145f17e-9d3b-419b-8dc9-84e49929d91e","$version":"A","$type":"Bolt.CustomEvent","$id":"12"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"TMPro.TextMeshProUGUI","targetTypeName":"TMPro.TextMeshProUGUI","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"","$type":"System.String"}},"position":{"x":150.0,"y":-181.0},"guid":"abddd482-e981-4dc7-bdb3-272879499467","$version":"A","$type":"Bolt.SetMember","$id":"14"},{"chainable":false,"member":{"name":"Log","parameterTypes":["System.Object"],"targetType":"UnityEngine.Debug","targetTypeName":"UnityEngine.Debug","$version":"A"},"defaultValues":{},"position":{"x":364.0,"y":-177.0},"guid":"72c8d885-9c5a-41fc-81a5-a71f6e2921de","$version":"A","$type":"Bolt.InvokeMember","$id":"17"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"assign","guid":"941ef441-9f9a-4f6a-b87b-b5a18b3022e0","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"assigned","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"dfccf733-52e9-40d2-92a1-c6c1cf73270f","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"mapName","destinationUnit":{"$ref":"14"},"destinationKey":"target","guid":"d1e77cd0-7731-41fb-ae89-d8383e1f3aa1","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"argument_0","destinationUnit":{"$ref":"14"},"destinationKey":"input","guid":"e2a8e036-eaaf-43cd-9e7e-61ec90a30b6e","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"output","destinationUnit":{"$ref":"17"},"destinationKey":"%message","guid":"c8dcf8e0-e808-403f-a6be-208b85723255","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
