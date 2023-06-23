@@ -204,6 +204,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -270,6 +271,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1553,6 +1566,67 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      anim_light3_0: -5430999517422149680
+      anim_light3_1: -2898813171668484645
+      anim_light3_10: 6116672965080394966
+      anim_light3_11: 6177245136136170399
+      anim_light3_12: 4234031373023225070
+      anim_light3_13: -6938609554203234785
+      anim_light3_14: 7083395757160150
+      anim_light3_15: -4782186007450417547
+      anim_light3_16: -1509241390235079380
+      anim_light3_17: 277531188276687114
+      anim_light3_18: 9178042154207085225
+      anim_light3_19: 1898154654081178561
+      anim_light3_2: 5260457203871059119
+      anim_light3_20: -1655177944515894178
+      anim_light3_21: 190514004090075601
+      anim_light3_22: 6503987167662665873
+      anim_light3_23: -3283976429925722613
+      anim_light3_24: -1715427984326804302
+      anim_light3_25: 4763170072423701489
+      anim_light3_26: 3656230929861721295
+      anim_light3_27: -8671360531930583065
+      anim_light3_28: -3783861079758456833
+      anim_light3_29: -7553366187374894597
+      anim_light3_3: -8535227738747681798
+      anim_light3_30: 9112374656088760416
+      anim_light3_31: -5835708856929720361
+      anim_light3_32: 5472776156774802065
+      anim_light3_33: -3077807665563734469
+      anim_light3_34: 6918723846011426241
+      anim_light3_35: 7641190183689288508
+      anim_light3_36: 311031822648127259
+      anim_light3_37: -8409580360647552769
+      anim_light3_38: 4091172735357744900
+      anim_light3_39: -7720617000958838204
+      anim_light3_4: -589754326644173074
+      anim_light3_40: 4741094084733260001
+      anim_light3_41: 7129621468064277681
+      anim_light3_42: -7070024817524509171
+      anim_light3_43: -1579428190512557461
+      anim_light3_44: 3225587620241045475
+      anim_light3_45: -4348338946968700523
+      anim_light3_46: 1903723936892691594
+      anim_light3_47: 7509355796476803803
+      anim_light3_48: -6476089411188184245
+      anim_light3_49: -46033293409514307
+      anim_light3_5: -4959299090971296076
+      anim_light3_50: 8185983376961022852
+      anim_light3_51: -5598682567526728254
+      anim_light3_52: 7157961340958622117
+      anim_light3_53: -4828167377560093158
+      anim_light3_54: -7947975120506816154
+      anim_light3_55: 1630773520743010081
+      anim_light3_56: -7852803792817963674
+      anim_light3_57: -981868029998625783
+      anim_light3_58: 2400172339265152897
+      anim_light3_59: 4946892508726915308
+      anim_light3_6: -4764581952621044748
+      anim_light3_7: 8516405470332702512
+      anim_light3_8: -1494171112792401656
+      anim_light3_9: -5513211779411219212
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
