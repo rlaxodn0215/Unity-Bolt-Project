@@ -4200,7 +4200,7 @@ PrefabInstance:
     - target: {fileID: -3943059458937604819, guid: 1c2c11bc40cf20f46b97e02db6b30b15,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"},{"name":"ClimbSpeed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"RunSpeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"hasBox","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"},{"name":"ClimbSpeed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"RunSpeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"hasObject","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"hasBox","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 7053779178920002504, guid: 1c2c11bc40cf20f46b97e02db6b30b15,
         type: 3}
@@ -5563,22 +5563,22 @@ MonoBehaviour:
   - position: {x: -3.796208, y: -3.2721317, z: 0}
     color: {r: 0, g: 0, b: 0, a: 1}
     uv: {x: 0, y: 0}
-  - position: {x: -3.7635, y: -5.0877, z: 0}
+  - position: {x: -3.7662, y: -5.1021, z: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
     uv: {x: 0, y: 0}
-  - position: {x: 1.2391, y: -5.1042, z: 0}
+  - position: {x: 1.2353, y: -5.1012, z: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
     uv: {x: 0, y: 0}
-  - position: {x: 1.2094, y: -3.2692, z: 0}
+  - position: {x: 1.2082, y: -3.2635, z: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
     uv: {x: 0, y: 0}
-  - position: {x: -3.8034, y: -3.2747, z: 0}
+  - position: {x: -3.7976, y: -3.2728, z: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
     uv: {x: 0, y: 0}
   m_Triangles: 000002000100000003000200040008000800040005000900040008000900050006000a00050009000a00060007000b0006000a000b0008000400070008000b000700
   m_LocalBounds:
-    m_Center: {x: -1.2791698, y: -4.1867, z: 0}
-    m_Extent: {x: 2.5242302, y: 0.9174999, z: 0}
+    m_Center: {x: -1.2762698, y: -4.1828, z: 0}
+    m_Extent: {x: 2.5213304, y: 0.91929996, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
