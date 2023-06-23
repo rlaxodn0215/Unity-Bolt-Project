@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/z_Scenes_backup/Menu.unity
     guid: e6a42748a35ed1345846cb86334ea999
   - enabled: 1
+    path: Assets/5. Scenes/SeokBeomKo/MAIN_SeokBeomKo.unity
+    guid: e1e9b449317690441be61db9176d9c60
+  - enabled: 1
     path: Assets/5. Scenes/SeokBeomKo/HUD_SeokBeomKo.unity
     guid: 2c725623716f2e141bd4c6bac38b3633
   m_configObjects: {}
