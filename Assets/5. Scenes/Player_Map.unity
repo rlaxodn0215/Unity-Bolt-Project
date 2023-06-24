@@ -8405,47 +8405,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -3943059458937604819, guid: 1c2c11bc40cf20f46b97e02db6b30b15,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"RunSpeed","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":8.5,"$type":"System.Single"},"$version":"A"},{"name":"ClimbSpeed","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"fastClimbSpeed","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"hasObject","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"hasBox","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1138558701, guid: 1c2c11bc40cf20f46b97e02db6b30b15, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1138558702, guid: 1c2c11bc40cf20f46b97e02db6b30b15, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.99999326
-      objectReference: {fileID: 0}
-    - target: {fileID: 1138558702, guid: 1c2c11bc40cf20f46b97e02db6b30b15, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.0036736976
-      objectReference: {fileID: 0}
-    - target: {fileID: 1138558703, guid: 1c2c11bc40cf20f46b97e02db6b30b15, type: 3}
-      propertyPath: m_PointLightInnerAngle
-      value: 360
-      objectReference: {fileID: 0}
-    - target: {fileID: 1138558703, guid: 1c2c11bc40cf20f46b97e02db6b30b15, type: 3}
-      propertyPath: m_PointLightOuterAngle
-      value: 360
-      objectReference: {fileID: 0}
-    - target: {fileID: 1138558703, guid: 1c2c11bc40cf20f46b97e02db6b30b15, type: 3}
-      propertyPath: m_PointLightOuterRadius
-      value: 4.5107846
-      objectReference: {fileID: 0}
-    - target: {fileID: 1138558703, guid: 1c2c11bc40cf20f46b97e02db6b30b15, type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1138558703, guid: 1c2c11bc40cf20f46b97e02db6b30b15, type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[0]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1138558703, guid: 1c2c11bc40cf20f46b97e02db6b30b15, type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[1]
-      value: -1019237657
-      objectReference: {fileID: 0}
     - target: {fileID: 7053779178920002504, guid: 1c2c11bc40cf20f46b97e02db6b30b15,
         type: 3}
       propertyPath: m_RootOrder
