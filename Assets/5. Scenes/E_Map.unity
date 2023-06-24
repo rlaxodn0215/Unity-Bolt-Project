@@ -2056,30 +2056,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1363209772, guid: 362e695e3ba36974ba51f14080009b4a, type: 3}
-      propertyPath: orthographic size
-      value: 10
+    - target: {fileID: 1529508080, guid: 362e695e3ba36974ba51f14080009b4a, type: 3}
+      propertyPath: m_Speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1529508080, guid: 362e695e3ba36974ba51f14080009b4a, type: 3}
       propertyPath: m_Height
-      value: 0.01
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 1529508080, guid: 362e695e3ba36974ba51f14080009b4a, type: 3}
       propertyPath: m_Radius
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 1529508080, guid: 362e695e3ba36974ba51f14080009b4a, type: 3}
-      propertyPath: m_BaseOffset
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1529508080, guid: 362e695e3ba36974ba51f14080009b4a, type: 3}
-      propertyPath: m_Acceleration
-      value: 8
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4736093186454362031, guid: 362e695e3ba36974ba51f14080009b4a,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Detection","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Speed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"Location","value":{"$content":1,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Detection","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Speed","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"Location","value":{"$content":1,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5668531550746896241, guid: 362e695e3ba36974ba51f14080009b4a,
         type: 3}
@@ -4306,7 +4298,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.06666667
+  m_VoxelSize: 0.13333334
   m_BuildHeightMesh: 0
   m_HideEditorLogs: 0
   m_NavMeshData: {fileID: 23800000, guid: 57e6b115d47e6584ab27f978241e81c7, type: 2}
