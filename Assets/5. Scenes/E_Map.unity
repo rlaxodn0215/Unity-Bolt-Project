@@ -1300,11 +1300,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2688865605885753, guid: 4724d82baac530f41a5333fb9105043a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.32
+      value: -16.41
       objectReference: {fileID: 0}
     - target: {fileID: 2688865605885753, guid: 4724d82baac530f41a5333fb9105043a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -16.88
+      value: -31.45
       objectReference: {fileID: 0}
     - target: {fileID: 2688865605885753, guid: 4724d82baac530f41a5333fb9105043a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1342,6 +1342,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_E
       objectReference: {fileID: 0}
+    - target: {fileID: 2930421792249801180, guid: 4724d82baac530f41a5333fb9105043a,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"},{"name":"ClimbSpeed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"RunSpeed","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"hasBox","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"HideObject","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 5804327294970479934, guid: 4724d82baac530f41a5333fb9105043a,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
@@ -1351,12 +1356,12 @@ PrefabInstance:
     - target: {fileID: 7056440538558402948, guid: 4724d82baac530f41a5333fb9105043a,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7056440538558402950, guid: 4724d82baac530f41a5333fb9105043a,
         type: 3}
       propertyPath: orthographic size
-      value: 30
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7056440538558402953, guid: 4724d82baac530f41a5333fb9105043a,
         type: 3}
@@ -2056,9 +2061,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1363209768, guid: 362e695e3ba36974ba51f14080009b4a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1529508080, guid: 362e695e3ba36974ba51f14080009b4a, type: 3}
       propertyPath: m_Speed
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1529508080, guid: 362e695e3ba36974ba51f14080009b4a, type: 3}
       propertyPath: m_Height
@@ -2068,10 +2077,22 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1529508080, guid: 362e695e3ba36974ba51f14080009b4a, type: 3}
+      propertyPath: m_Acceleration
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529508080, guid: 362e695e3ba36974ba51f14080009b4a, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529508080, guid: 362e695e3ba36974ba51f14080009b4a, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4736093186454362031, guid: 362e695e3ba36974ba51f14080009b4a,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Detection","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Speed","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"Location","value":{"$content":1,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Detection","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"HasAggro","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5668531550746896241, guid: 362e695e3ba36974ba51f14080009b4a,
         type: 3}
@@ -2086,12 +2107,12 @@ PrefabInstance:
     - target: {fileID: 9058903150781941331, guid: 362e695e3ba36974ba51f14080009b4a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 31.8
+      value: -20.82
       objectReference: {fileID: 0}
     - target: {fileID: 9058903150781941331, guid: 362e695e3ba36974ba51f14080009b4a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -27.4
+      value: -29.91
       objectReference: {fileID: 0}
     - target: {fileID: 9058903150781941331, guid: 362e695e3ba36974ba51f14080009b4a,
         type: 3}
