@@ -1198,11 +1198,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2688865605885753, guid: 4724d82baac530f41a5333fb9105043a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23.28
+      value: 13.73
       objectReference: {fileID: 0}
     - target: {fileID: 2688865605885753, guid: 4724d82baac530f41a5333fb9105043a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.83
+      value: -30.45
       objectReference: {fileID: 0}
     - target: {fileID: 2688865605885753, guid: 4724d82baac530f41a5333fb9105043a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1852,6 +1852,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4736093186454362031, guid: 362e695e3ba36974ba51f14080009b4a,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Player","value":null,"$version":"A"},{"name":"Detection","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Speed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 5668531550746896241, guid: 362e695e3ba36974ba51f14080009b4a,
         type: 3}
       propertyPath: m_Name
@@ -1865,12 +1870,12 @@ PrefabInstance:
     - target: {fileID: 9058903150781941331, guid: 362e695e3ba36974ba51f14080009b4a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23
+      value: 3.03
       objectReference: {fileID: 0}
     - target: {fileID: 9058903150781941331, guid: 362e695e3ba36974ba51f14080009b4a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.04
+      value: -15.55
       objectReference: {fileID: 0}
     - target: {fileID: 9058903150781941331, guid: 362e695e3ba36974ba51f14080009b4a,
         type: 3}
