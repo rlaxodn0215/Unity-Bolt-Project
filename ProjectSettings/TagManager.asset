@@ -12,6 +12,8 @@ TagManager:
   - Ladder
   - Ladder-air
   - Box
+  - Ladder-ground
+  - HideObject
   layers:
   - Default
   - TransparentFX
@@ -28,7 +30,7 @@ TagManager:
   - PlayerInvincible
   - Projectile
   - Ladder
-  - MapName
+  - Block
   - 
   - 
   - 
