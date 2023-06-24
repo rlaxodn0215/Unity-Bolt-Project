@@ -1514,7 +1514,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 32.524036, y: -10.40115}
+  m_Offset: {x: 32.524036, y: -10.5269165}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1525,7 +1525,39 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.798378, y: 14.81382}
+  m_Size: {x: 2.798378, y: 14.562286}
+  m_EdgeRadius: 0
+--- !u!1 &261845560 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4319196159943806553, guid: 7ac9bcea994616348917fd541ab8daf5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1128937246}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &261845565
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261845560}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 44.452065, y: -16.534079}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.8530273, y: 3.1318398}
   m_EdgeRadius: 0
 --- !u!1 &420006705
 GameObject:
@@ -5013,7 +5045,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7859818005624419565, guid: 7ac9bcea994616348917fd541ab8daf5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7ac9bcea994616348917fd541ab8daf5, type: 3}
 --- !u!1 &1133604005
 GameObject:
@@ -8405,6 +8438,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1138558701, guid: 1c2c11bc40cf20f46b97e02db6b30b15, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7053779178920002504, guid: 1c2c11bc40cf20f46b97e02db6b30b15,
         type: 3}
       propertyPath: m_RootOrder
@@ -90015,7 +90052,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7859818005624419565, guid: 7ac9bcea994616348917fd541ab8daf5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7ac9bcea994616348917fd541ab8daf5, type: 3}
 --- !u!4 &2269446385418599003 stripped
 Transform:
