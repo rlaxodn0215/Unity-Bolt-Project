@@ -14,6 +14,7 @@ TagManager:
   - Box
   - Ladder-ground
   - HideObject
+  - JumpObject
   layers:
   - Default
   - TransparentFX
@@ -31,7 +32,7 @@ TagManager:
   - Projectile
   - Ladder
   - Block
-  - 
+  - JumpObject
   - 
   - 
   - 
