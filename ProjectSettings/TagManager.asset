@@ -14,6 +14,13 @@ TagManager:
   - Box
   - Ladder-ground
   - HideObject
+  - Basement
+  - Main Hall
+  - Lobby
+  - Library
+  - Hallway
+  - Bedroom
+  - Attic
   layers:
   - Default
   - TransparentFX
