@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: HUD
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":10.0,"y":56.0},"zoom":1.0,"elements":[{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"player","$type":"System.String"},"object":null},"position":{"x":-91.0,"y":-193.0},"guid":"e29afd80-bde5-4241-ae14-238ffdce2fd4","$version":"A","$type":"Bolt.GetVariable","$id":"9"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"staminaUI","$type":"System.String"},"object":null},"position":{"x":-98.0,"y":-64.0},"guid":"a7e15690-3b80-447d-8efd-843365e5eeb4","$version":"A","$type":"Bolt.GetVariable","$id":"11"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":166.0,"y":-197.0},"guid":"2a4e3364-09a2-4a39-a261-1fdd3b6e2a0b","$version":"A","$type":"Bolt.SuperUnit","$id":"13"},{"nest":{"source":"Macro","macro":1,"embed":null},"defaultValues":{},"position":{"x":141.0,"y":-50.0},"guid":"ca2f78f9-8d9c-4222-9045-ab554e968fd0","$version":"A","$type":"Bolt.SuperUnit","$id":"16"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"mapNameUI","$type":"System.String"},"object":null},"position":{"x":-128.0,"y":72.0},"guid":"01447d76-7879-4a3e-a9cf-1f52836cbb7e","$version":"A","$type":"Bolt.GetVariable","$id":"19"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"itemSlotUI","$type":"System.String"},"object":null},"position":{"x":-109.0,"y":213.0},"guid":"86cb985c-ac89-4a90-93a1-f025e0fcf836","$version":"A","$type":"Bolt.GetVariable","$id":"21"},{"nest":{"source":"Macro","macro":2,"embed":null},"defaultValues":{},"position":{"x":146.0,"y":95.0},"guid":"7501914f-11bd-4d09-852d-ac88d8ef59e6","$version":"A","$type":"Bolt.SuperUnit","$id":"23"},{"sourceUnit":{"$ref":"9"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"player","guid":"704512a8-fcbd-4192-9a13-6ebc2fd8d2ba","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"player","guid":"9ad95777-de17-4fe6-9bbe-9782f3dbe3cc","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"staminaUI","guid":"1338b916-8af4-4037-ad35-400694a7d685","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"mapName","guid":"f86fe7b3-95b8-46b0-96f9-017dcb6d641c","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"23"},"destinationKey":"item","guid":"0d4e57e3-8155-4f0a-a133-93ce937b8f6d","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"value","destinationUnit":{"$ref":"23"},"destinationKey":"player","guid":"b1a17f8f-5d62-4fd4-bbef-adbc14e0970a","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: bbfda5660c30e4b45867fdc5d2b4851f, type: 2}
+    - {fileID: 11400000, guid: d25a3927b4db8fd429547beb9cd814fd, type: 2}
+    - {fileID: 11400000, guid: 3efcf3b286b5c1e47894c26bd15232a8, type: 2}

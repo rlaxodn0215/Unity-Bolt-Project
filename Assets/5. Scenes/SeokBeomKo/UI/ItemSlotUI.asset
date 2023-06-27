@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: ItemSlotUI
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.UI.Image","key":"item","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.GameObject","key":"player","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-49.0,"y":-50.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-406.0,"y":-111.0},"guid":"8bfe3039-12b7-4db9-abd0-6a8199e7550d","$version":"A","$type":"Bolt.GraphInput","$id":"11"},{"coroutine":false,"defaultValues":{},"position":{"x":-311.0,"y":-240.0},"guid":"7e45e83c-4d68-408a-a2cd-e75bd881a5fe","$version":"A","$type":"Bolt.Update","$id":"13"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"inventory","$type":"System.String"},"object":null},"position":{"x":-159.0,"y":-54.0},"guid":"2ba1482a-8509-4f96-a357-2157e92d4c63","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"chainable":false,"member":{"name":"sprite","parameterTypes":null,"targetType":"UnityEngine.UI.Image","targetTypeName":"UnityEngine.UI.Image","$version":"A"},"defaultValues":{"target":null,"input":null},"position":{"x":88.0,"y":-198.0},"guid":"da7bed48-c227-46f2-a1b3-6a08e5c35629","$version":"A","$type":"Bolt.SetMember","$id":"17"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"assign","guid":"acee7fce-b6c7-4bb3-abc2-63bbe0d6c335","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"player","destinationUnit":{"$ref":"15"},"destinationKey":"object","guid":"22a612c9-0fa8-409c-bebb-1355c4ff1ef6","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"item","destinationUnit":{"$ref":"17"},"destinationKey":"target","guid":"efb1a0b5-80e3-4d98-8c8d-c5e27894218f","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"input","guid":"0ea518b1-e5b7-4156-9baf-7c9a5ad21763","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

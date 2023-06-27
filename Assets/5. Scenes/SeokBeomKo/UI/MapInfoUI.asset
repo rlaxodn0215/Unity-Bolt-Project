@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: MapInfoUI
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.UI.Text","key":"mapName","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.GameObject","key":"player","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":69.0,"y":-133.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-102.0,"y":-192.0},"guid":"3c49dc1a-f14d-4799-a2a5-63af6e1bc95a","$version":"A","$type":"Bolt.Update","$id":"11"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"","$type":"System.String"}},"position":{"x":196.0,"y":-214.0},"guid":"52a4792a-6e10-4be3-9849-b23a3aa80701","$version":"A","$type":"Bolt.SetMember","$id":"13"},{"defaultValues":{},"position":{"x":-119.0,"y":-67.0},"guid":"b6fd0749-e3c2-4296-b869-820be5d334da","$version":"A","$type":"Bolt.GraphInput","$id":"16"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"mapName","$type":"System.String"},"object":null},"position":{"x":36.0,"y":-52.0},"guid":"12eb409b-f40d-48f3-bfd8-8fc62cc7d6eb","$version":"A","$type":"Bolt.GetVariable","$id":"18"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"5838cae5-62f7-4338-9294-e2d77b0ef40c","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"mapName","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"211805a2-a32b-4fae-bb64-5ceb5637234c","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"player","destinationUnit":{"$ref":"18"},"destinationKey":"object","guid":"13439737-3215-46bd-8b16-171c60265578","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"b59f91db-6bc3-4132-9473-864c0ab3ab16","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
