@@ -19,6 +19,13 @@ TagManager:
   - Door
   - Lever
   - Picture
+  - Basement
+  - MainHall
+  - Lobby
+  - Library
+  - Hallway
+  - Bedroom
+  - Attic
   layers:
   - Default
   - TransparentFX

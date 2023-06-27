@@ -3959,7 +3959,7 @@ GameObject:
   - component: {fileID: 947639230}
   m_Layer: 0
   m_Name: Main Hall
-  m_TagString: Main Hall
+  m_TagString: MainHall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
