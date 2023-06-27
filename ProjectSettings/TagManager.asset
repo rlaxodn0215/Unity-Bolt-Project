@@ -11,10 +11,14 @@ TagManager:
   - Objective
   - Ladder
   - Ladder-air
-  - Box
   - Ladder-ground
   - HideObject
   - JumpObject
+  - Candle
+  - PlayerLight
+  - Door
+  - Lever
+  - Picture
   layers:
   - Default
   - TransparentFX
