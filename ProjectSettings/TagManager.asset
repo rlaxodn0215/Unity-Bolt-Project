@@ -11,16 +11,14 @@ TagManager:
   - Objective
   - Ladder
   - Ladder-air
-  - Box
   - Ladder-ground
   - HideObject
-  - Basement
-  - Main Hall
-  - Lobby
-  - Library
-  - Hallway
-  - Bedroom
-  - Attic
+  - JumpObject
+  - Candle
+  - PlayerLight
+  - Door
+  - Lever
+  - Picture
   layers:
   - Default
   - TransparentFX
@@ -38,7 +36,7 @@ TagManager:
   - Projectile
   - Ladder
   - Block
-  - 
+  - JumpObject
   - 
   - 
   - 
