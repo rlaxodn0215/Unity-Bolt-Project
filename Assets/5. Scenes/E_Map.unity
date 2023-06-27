@@ -2092,7 +2092,7 @@ PrefabInstance:
     - target: {fileID: 4736093186454362031, guid: 362e695e3ba36974ba51f14080009b4a,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Detection","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"HasAggro","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Detection","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"LoseAggroSec","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5668531550746896241, guid: 362e695e3ba36974ba51f14080009b4a,
         type: 3}
