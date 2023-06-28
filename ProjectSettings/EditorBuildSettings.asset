@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/5. Scenes/SeokBeomKo/INGAME_SEOK.unity
     guid: c1b6aca9b4dc6064d8d7ef0e5541c5c9
   - enabled: 1
+    path: Assets/5. Scenes/SeokBeomKo/RETIRE_SEOK.unity
+    guid: 1b9541ad790928f4a9d4ae0ae587be86
+  - enabled: 1
     path: Assets/5. Scenes/SeokBeomKo/EXIT_SEOK.unity
     guid: f0c7f008e332fce4ea10d11c013648cd
   m_configObjects: {}
