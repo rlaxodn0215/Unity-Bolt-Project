@@ -6,27 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/z_Scenes_backup/HUD.unity
-    guid: 279a8870345208046b22f7aa2b7fe228
+    path: Assets/5. Scenes/SeokBeomKo/LOADING_SEOK.unity
+    guid: 45be590cddc840248b33dfa2202f38ef
   - enabled: 1
-    path: Assets/z_Scenes_backup/Level1.unity
-    guid: 80e5ff8fdbb5a084296e97e2731f0bd0
+    path: Assets/5. Scenes/SeokBeomKo/MAIN_SEOK.unity
+    guid: 6fde3d50fb7e92b4e9b86936478f0d76
   - enabled: 1
-    path: Assets/z_Scenes_backup/Level2.unity
-    guid: d0f1403920648594b866544daef165af
+    path: Assets/5. Scenes/SeokBeomKo/INGAME_SEOK.unity
+    guid: c1b6aca9b4dc6064d8d7ef0e5541c5c9
   - enabled: 1
-    path: Assets/z_Scenes_backup/Level3.unity
-    guid: 899e2f9ff7821344489cd9cb15bf1f89
+    path: Assets/5. Scenes/SeokBeomKo/RETIRE_SEOK.unity
+    guid: 1b9541ad790928f4a9d4ae0ae587be86
   - enabled: 1
-    path: Assets/z_Scenes_backup/Level4.unity
-    guid: 3a9fc8842018d014cb7ce22ded4c574c
-  - enabled: 1
-    path: Assets/z_Scenes_backup/Menu.unity
-    guid: e6a42748a35ed1345846cb86334ea999
-  - enabled: 1
-    path: Assets/5. Scenes/SeokBeomKo/UI/MAIN_SeokBeomKo.unity
-    guid: e1e9b449317690441be61db9176d9c60
-  - enabled: 1
-    path: Assets/5. Scenes/SeokBeomKo/UI/HUD_SeokBeomKo.unity
-    guid: 2c725623716f2e141bd4c6bac38b3633
+    path: Assets/5. Scenes/SeokBeomKo/EXIT_SEOK.unity
+    guid: f0c7f008e332fce4ea10d11c013648cd
   m_configObjects: {}

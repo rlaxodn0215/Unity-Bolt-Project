@@ -1,5 +1,18 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+guid: cfd88f66bbb8676408eabb80f6575c5e
+========
+guid: e5fe66c951f3501479dcc0df65de59d1
+folderAsset: yes
+>>>>>>>> ead0b865eb04ea133d7864cfc596672fe3556056:Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Variables.meta
+=======
+<<<<<<<< HEAD:Assets/5. Scenes/SeokBeomKo/EXIT_SEOK.unity.meta
+guid: f0c7f008e332fce4ea10d11c013648cd
+========
 guid: c030e03a110d0dd4fb0adb6b09b6020c
+>>>>>>>> ead0b865eb04ea133d7864cfc596672fe3556056:Assets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+>>>>>>> ead0b865eb04ea133d7864cfc596672fe3556056
 DefaultImporter:
   externalObjects: {}
   userData: 

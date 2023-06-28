@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/5. Scenes/SeokBeomKo/LOADINGSCENE.meta
+guid: a1af94c8f87e2fa42ae30d0eb3de69d4
+========
 guid: 984add83c82edf34ab3253a706018c1f
+>>>>>>>> ead0b865eb04ea133d7864cfc596672fe3556056:Assets/8. Audio.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

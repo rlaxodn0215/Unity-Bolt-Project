@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 30aa14df7cc313c46a966b674ee164b5
+=======
+<<<<<<<< HEAD:Assets/Unity.VisualScripting.Generated.meta
+guid: f82380d56bbe6b64db99345f1f61151b
+========
 guid: 580c8b630539b9c4cbd187c0b48ebde7
+>>>>>>>> ead0b865eb04ea133d7864cfc596672fe3556056:Assets/Unity.VisualScripting.Generated/VisualScripting.Core.meta
+>>>>>>> ead0b865eb04ea133d7864cfc596672fe3556056
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

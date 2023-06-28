@@ -13,5 +13,9 @@ MonoBehaviour:
   m_Name: SavedVariables
   m_EditorClassIdentifier: 
   _data:
+<<<<<<< HEAD
+    _json: '{"declarations":{"Kind":"Flow","collection":{"$content":[{"name":"Level1_Unlocked","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"sceneName","value":{"$content":"deafault","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+=======
     _json: '{"declarations":{"Kind":"Flow","collection":{"$content":[{"name":"Level1_Unlocked","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+>>>>>>> ead0b865eb04ea133d7864cfc596672fe3556056
     _objectReferences: []
