@@ -26,6 +26,7 @@ TagManager:
   - Hallway
   - Bedroom
   - Attic
+  - Obj
   layers:
   - Default
   - TransparentFX
