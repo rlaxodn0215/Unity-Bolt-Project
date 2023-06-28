@@ -1,6 +1,15 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 3e4bcd75586031a4ca3f2504eda7e838
 folderAsset: yes
+=======
+<<<<<<<< HEAD:Assets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+guid: cfd88f66bbb8676408eabb80f6575c5e
+========
+guid: e5fe66c951f3501479dcc0df65de59d1
+folderAsset: yes
+>>>>>>>> ead0b865eb04ea133d7864cfc596672fe3556056:Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Variables.meta
+>>>>>>> ead0b865eb04ea133d7864cfc596672fe3556056
 DefaultImporter:
   externalObjects: {}
   userData: 
