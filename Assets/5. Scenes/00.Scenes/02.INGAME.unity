@@ -1916,6 +1916,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 305168161}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &308399711 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4034507886263139910, guid: b1a233b3f6fc15e45a66ca22d7f66858,
+    type: 3}
+  m_PrefabInstance: {fileID: 1721318428}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &338730777
 GameObject:
   m_ObjectHideFlags: 0
@@ -2665,6 +2677,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 55045750507095756, guid: ff296aa7f13cda34abf929f877214b14,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 14.801352
+      objectReference: {fileID: 0}
+    - target: {fileID: 55045750507095756, guid: ff296aa7f13cda34abf929f877214b14,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -10.330754
+      objectReference: {fileID: 0}
+    - target: {fileID: 55045752385545799, guid: ff296aa7f13cda34abf929f877214b14,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 14.811224
+      objectReference: {fileID: 0}
+    - target: {fileID: 55045752385545799, guid: ff296aa7f13cda34abf929f877214b14,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -10.325772
+      objectReference: {fileID: 0}
+    - target: {fileID: 2362149969842742013, guid: ff296aa7f13cda34abf929f877214b14,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 14.941533
+      objectReference: {fileID: 0}
+    - target: {fileID: 2362149969842742013, guid: ff296aa7f13cda34abf929f877214b14,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -10.260804
+      objectReference: {fileID: 0}
     - target: {fileID: 3262927991824250394, guid: ff296aa7f13cda34abf929f877214b14,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[2]
@@ -5281,6 +5323,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4736093186454362031, guid: 362e695e3ba36974ba51f14080009b4a,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Detection","value":{"$content":14.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"LoseAggroSec","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HasAggro","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 5668531550746896241, guid: 362e695e3ba36974ba51f14080009b4a,
         type: 3}
       propertyPath: m_Name
@@ -5294,12 +5344,12 @@ PrefabInstance:
     - target: {fileID: 9058903150781941331, guid: 362e695e3ba36974ba51f14080009b4a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.24
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 9058903150781941331, guid: 362e695e3ba36974ba51f14080009b4a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25.75
+      value: -42
       objectReference: {fileID: 0}
     - target: {fileID: 9058903150781941331, guid: 362e695e3ba36974ba51f14080009b4a,
         type: 3}
@@ -85092,6 +85142,26 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 519883982}
+    - target: {fileID: 4034507885100806129, guid: b1a233b3f6fc15e45a66ca22d7f66858,
+        type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034507885100806129, guid: b1a233b3f6fc15e45a66ca22d7f66858,
+        type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034507885205927252, guid: b1a233b3f6fc15e45a66ca22d7f66858,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034507885205927252, guid: b1a233b3f6fc15e45a66ca22d7f66858,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034507885381122160, guid: b1a233b3f6fc15e45a66ca22d7f66858,
         type: 3}
       propertyPath: m_Name
@@ -85099,9 +85169,44 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034507885381122167, guid: b1a233b3f6fc15e45a66ca22d7f66858,
         type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"staminaUI","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"mapNameUI","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Text,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"itemSlotUI","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Image,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GuideUI","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034507885381122167, guid: b1a233b3f6fc15e45a66ca22d7f66858,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034507885381122167, guid: b1a233b3f6fc15e45a66ca22d7f66858,
+        type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 1698235231}
+    - target: {fileID: 4034507885381122167, guid: b1a233b3f6fc15e45a66ca22d7f66858,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 2119122921}
+    - target: {fileID: 4034507885381122167, guid: b1a233b3f6fc15e45a66ca22d7f66858,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 308399711}
+    - target: {fileID: 4034507885381122167, guid: b1a233b3f6fc15e45a66ca22d7f66858,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[3]
+      value: 
+      objectReference: {fileID: 2130072043}
+    - target: {fileID: 4034507885381122167, guid: b1a233b3f6fc15e45a66ca22d7f66858,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[4]
+      value: 
+      objectReference: {fileID: 796831148}
     - target: {fileID: 4034507885381122171, guid: b1a233b3f6fc15e45a66ca22d7f66858,
         type: 3}
       propertyPath: m_Pivot.x
@@ -85216,6 +85321,24 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5956633685119616431, guid: cb8a927c1f448014c89dfdb42ec6fdf5,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"RunSpeed","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Jump","value":{"$content":8.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ClimbSpeed","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"fastClimbSpeed","value":{"$content":7.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"hasObject","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"hasKey","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"hasCandle","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HideObject","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"mapName","value":{"$content":"\uae30\ubcf8","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"stamina","value":{"$content":0.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"inventory","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Sprite,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"curInter","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 8793639310428156746, guid: cb8a927c1f448014c89dfdb42ec6fdf5,
         type: 3}
       propertyPath: m_RootOrder
@@ -93890,6 +94013,24 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &2119122921 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4034507885100806128, guid: b1a233b3f6fc15e45a66ca22d7f66858,
+    type: 3}
+  m_PrefabInstance: {fileID: 1721318428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2130072043 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4034507884340850681, guid: b1a233b3f6fc15e45a66ca22d7f66858,
+    type: 3}
+  m_PrefabInstance: {fileID: 1721318428}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &386190582426325077
 PrefabInstance:
   m_ObjectHideFlags: 0
